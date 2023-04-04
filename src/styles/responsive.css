@@ -1,0 +1,19 @@
+@media screen and (min-width: 540px){
+  header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .d-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 700px){
+  .d-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
